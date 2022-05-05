@@ -291,6 +291,7 @@ class VersatileCalculator extends HookConsumerWidget {
       }
     }
     return AlertDialog(
+      backgroundColor: Colors.transparent,
       contentPadding: EdgeInsets.all(0),
       alignment: Alignment.center,
       shape: RoundedRectangleBorder(

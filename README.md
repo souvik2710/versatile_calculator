@@ -23,7 +23,7 @@ import 'package:versatile_calculator/versatile_calculator.dart';
 ## Example
 
 
-<hr>
+[comment]: <> (<hr>)
 
 <table>
 <tr>
