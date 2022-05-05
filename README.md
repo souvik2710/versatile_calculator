@@ -54,7 +54,7 @@ class DemoCalculatorScreen extends StatelessWidget {
                     barrierDismissible: true,
                     context: context,
                     builder: (ctx) {
-                      return CalculatorSmallAlert();
+                      return VersatileCalculator();
                     });
           },
 
@@ -68,7 +68,7 @@ class DemoCalculatorScreen extends StatelessWidget {
 
 </td>
 <td>
-<img  src="https://user-images.githubusercontent.com/53579386/126896556-911d4778-04cd-49bf-b32a-01a6eb3b0155.jpeg"  alt="">
+<img  src="https://raw.githubusercontent.com/souvik2710/versatile_calculator/master/lib/pics/cal_example.png"  alt="">
 </td>
 </tr>
 </table>
