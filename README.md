@@ -1,6 +1,6 @@
 ## Author
 Souvik Versatile
-[Link to Profile](https://www.linkedin.com/in/souvik2710/)
+[Link to Profile](https://www.linkedin.com/in/souvik2710/){:target="_blank"}
 
 ## Versatile Calculator
 
@@ -13,7 +13,7 @@ Souvik Versatile
 1. Add the latest version of package to your pubspec.yaml (and run`dart pub get`):
 ```yaml
 dependencies:
-  versatile_calculator: ^0.0.1
+  versatile_calculator: ^0.0.2
 ```
 2. Import the package and use it in your Flutter App.
 ```dart

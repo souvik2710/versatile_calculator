@@ -18,28 +18,28 @@ class VersatileCalculator extends HookConsumerWidget {
   Widget build(BuildContext context,WidgetRef ref) {
     final ValueNotifier<List<String>> calculateHistoryList = useState(['']);
     final ValueNotifier<String> displayString = useState('');
-    final ValueNotifier<String> tempValueString = useState('');
+    // final ValueNotifier<String> tempValueString = useState('');
     final forCheck = useState(false);
     // final ValueNotifier<List<CalculatorObject>> listCalculatorObject = useState([]);
     // final  totalDue = useState(15.97);
     final valueController = useTextEditingController();
-    ValueNotifier<double> doubleValue = useState(0.0);
+    // ValueNotifier<double> doubleValue = useState(0.0);
 
     useEffect(() {
       // doubleValue = useState(0.0);
       return;
     }, []);
-    String checkString(index){
-      switch (index) {
-        case 0:
-        // return StorePropertiesView();
-          return 'a';
-        case 1:
-          return 'b';
-        default:
-          return 'c';
-      }
-    }
+    // String checkString(index){
+    //   switch (index) {
+    //     case 0:
+    //     // return StorePropertiesView();
+    //       return 'a';
+    //     case 1:
+    //       return 'b';
+    //     default:
+    //       return 'c';
+    //   }
+    // }
     bool checkLastBadValue(String valString){
       var lastStringItem = valString.substring(valString.length-1,valString.length);
       if(lastStringItem == '+'||lastStringItem == '-'||lastStringItem == '/'||lastStringItem == 'x'||lastStringItem == '.'){
@@ -87,7 +87,9 @@ class VersatileCalculator extends HookConsumerWidget {
     //
     // }
     // function to calculate the input operation
-    void equalPressed() {
+
+
+    // void equalPressed() {
       // String finaluserinput = userInput;
       // finaluserinput = userInput.replaceAll('x', '*');
 
@@ -97,7 +99,8 @@ class VersatileCalculator extends HookConsumerWidget {
       // double eval = exp.evaluate(EvaluationType.REAL, cm);
       // answer = eval.toString();
       // }
-    }
+    // }
+
     Function() getCalculatorFunctionFromIndex(index){
       switch (index) {
         case 0:

@@ -4,17 +4,17 @@ import 'package:hooks_riverpod/hooks_riverpod.dart';
 
 
 class CommonElevatedButton extends HookConsumerWidget {
-  bool isCapsule;
-  String buttonText;
-  Function()? onbuttonPressed;
-  double insideVerticalPadding;
-  double outSidePadding;
-  double verticalOutsidePadding;
-  double sizeType;
-  Color colorType;
-  double width;
-  double height;
-  FontWeight textFontWeight;
+ final bool isCapsule;
+ final  String buttonText;
+ final Function()? onbuttonPressed;
+ final  double insideVerticalPadding;
+ final double outSidePadding;
+ final  double verticalOutsidePadding;
+ final double sizeType;
+ final Color colorType;
+ final double width;
+ final double height;
+ final FontWeight textFontWeight;
   //isMobile, insideVerticalPadding, outSidePadding are optional
   //CommonElevatedButton
 
