@@ -1,6 +1,6 @@
 name: versatile_calculator
 description: A simple calculator with some unique attributes that stores history of the previous calculations in a scrollview.
-version: 0.0.2
+version: 0.0.3
 homepage: https://github.com/souvik2710/versatile_calculator
 
 environment:
