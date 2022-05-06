@@ -5,3 +5,7 @@ A simple calculator with some unique attributes that stores history of the previ
 ## 0.0.2
 
 Example added , errors and warnings removed 
+
+## 0.0.3
+
+Formatted code 
