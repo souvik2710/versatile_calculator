@@ -1,6 +1,6 @@
 ## Author
 Souvik Versatile
-[Link to Profiles](https://www.linkedin.com/in/souvik2710/)
+[Link to Profile](https://www.linkedin.com/in/souvik2710/)
 
 ## Versatile Calculator
 

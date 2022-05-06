@@ -21,7 +21,6 @@ class MyApp extends StatelessWidget {
   }
 }
 
-
 class DemoCalculatorScreen extends StatelessWidget {
   const DemoCalculatorScreen({Key? key}) : super(key: key);
 
@@ -40,7 +39,7 @@ class DemoCalculatorScreen extends StatelessWidget {
             onPrimary: Colors.white,
             elevation: 5,
           ),
-          onPressed: (){
+          onPressed: () {
             showDialog(
                 barrierColor: Colors.white.withOpacity(0.2),
                 barrierDismissible: true,
@@ -49,7 +48,6 @@ class DemoCalculatorScreen extends StatelessWidget {
                   return VersatileCalculator();
                 });
           },
-
           child: Text('Check Calculator'),
         ),
       ),

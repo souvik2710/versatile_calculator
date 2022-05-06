@@ -2,37 +2,35 @@ import 'package:flutter/material.dart';
 import 'package:flutter_hooks/flutter_hooks.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 
-
 class CommonElevatedButton extends HookConsumerWidget {
- final bool isCapsule;
- final  String buttonText;
- final Function()? onbuttonPressed;
- final  double insideVerticalPadding;
- final double outSidePadding;
- final  double verticalOutsidePadding;
- final double sizeType;
- final Color colorType;
- final double width;
- final double height;
- final FontWeight textFontWeight;
+  final bool isCapsule;
+  final String buttonText;
+  final Function()? onbuttonPressed;
+  final double insideVerticalPadding;
+  final double outSidePadding;
+  final double verticalOutsidePadding;
+  final double sizeType;
+  final Color colorType;
+  final double width;
+  final double height;
+  final FontWeight textFontWeight;
   //isMobile, insideVerticalPadding, outSidePadding are optional
   //CommonElevatedButton
 
-  CommonElevatedButton({
-    this.isCapsule = false,
-    required this.buttonText,
-    required this.onbuttonPressed,
-    this.insideVerticalPadding = 18.0,
-    this.outSidePadding = 5.0,
-    this.verticalOutsidePadding = 0.0,
-    required this.sizeType,
-    required this.colorType,
-    this.width = double.infinity,
-    // this.height = double.infinity,
-    // this.width = 100.0,
-    this.height = 35.0,
-    this.textFontWeight = FontWeight.normal
-  });
+  CommonElevatedButton(
+      {this.isCapsule = false,
+      required this.buttonText,
+      required this.onbuttonPressed,
+      this.insideVerticalPadding = 18.0,
+      this.outSidePadding = 5.0,
+      this.verticalOutsidePadding = 0.0,
+      required this.sizeType,
+      required this.colorType,
+      this.width = double.infinity,
+      // this.height = double.infinity,
+      // this.width = 100.0,
+      this.height = 35.0,
+      this.textFontWeight = FontWeight.normal});
 // DineOrderColors.buttonOrangeColor
   @override
   Widget build(BuildContext context, WidgetRef ref) {
@@ -80,8 +78,7 @@ class CommonElevatedButton extends HookConsumerWidget {
               style: TextStyle(
                   fontFamily: "proxima",
                   fontSize: sizeType,
-                  fontWeight: textFontWeight
-              ),
+                  fontWeight: textFontWeight),
             ),
           ),
         ),
